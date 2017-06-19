@@ -16,6 +16,9 @@ body {
   background-color: #011936;
   color: white; }
 
+.nav a {
+  margin: 5px; }
+
 .ex_1-parent {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

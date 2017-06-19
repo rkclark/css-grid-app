@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  Route
+  Route,
 } from 'react-router-dom';
 import Home from './components/Home';
 import FourColumns from './components/FourColumns';
+import TwoGrid from './components/TwoGrid';
 import Nav from './components/Nav';
 
 class App extends Component {
@@ -12,16 +13,11 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <div className="App-header">
-            <Nav />
-          </div>
-          <p className="App-intro">
-            To get started, edit <code>src/App.js</code> and save to reload.
-          </p>
+          <Nav />
 
-          <Route exact path="/" component={Home}/>
-          <Route path="/four-columns" component={FourColumns}/>
-
+          <Route exact path="/" component={Home} />
+          <Route path="/four-columns" component={FourColumns} />
+          <Route path="/two-grid" component={TwoGrid} />
         </div>
       </Router>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function FourColumns() {
+export default function TwoGrid() {
   return (
     <div>
-      <h2>Four Columns</h2>
-      <div className="ex_1-parent">
+      <h2>2x2 Grid</h2>
+      <div className="ex_2-parent">
         <div className="col-one">
           1
         </div>
