@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
 import Home from './components/Home';
 import FourColumns from './components/FourColumns';
 import Nav from './components/Nav';
-import './App.css';
 
 class App extends Component {
   render() {

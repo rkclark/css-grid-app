@@ -1,0 +1,20 @@
+.ex_6-parent {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(70px, auto);
+
+}
+
+.ex_6-tall {
+  grid-row-end: span 2;
+}
+
+.ex_6-extra-tall {
+  grid-row-end: span 3;
+}
+
+.ex_6-header,
+.ex_6-footer {
+  grid-column: 1 / -1;
+}

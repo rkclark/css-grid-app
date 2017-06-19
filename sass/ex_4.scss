@@ -1,0 +1,22 @@
+.ex_4-parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+  grid-template-areas: "four two one three";
+}
+
+.ex_4-one {
+  grid-area: one;
+}
+
+.ex_4-two {
+  grid-area: two;
+}
+
+.ex_4-three {
+  grid-area: three;
+}
+
+.ex_4-four {
+  grid-area: four;
+}

@@ -1,0 +1,27 @@
+$theme_tint1: #ED254E;
+$theme_tint2: #F9DC5C;
+$theme_tint3: #C2EABD;
+$theme_tint4: #011936;
+
+body {
+  font-family: 'Patrick Hand SC', cursive;
+  text-align: center;
+  color: $theme_tint4;
+}
+
+.col-one {
+  background-color: $theme_tint1;
+}
+
+.col-two {
+  background-color: $theme_tint2;
+}
+
+.col-three {
+  background-color: $theme_tint3;
+}
+
+.col-four {
+  background-color: $theme_tint4;
+  color: white;
+}
