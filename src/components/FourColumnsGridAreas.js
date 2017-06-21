@@ -18,6 +18,8 @@ export default function FourColumnsGridAreas() {
           4
         </div>
       </div>
+      <img className="snippet-img" src="img/ex4-html.png" alt="ex1" />
+      <img className="snippet-img" src="img/ex4.png" alt="ex1" />
     </div>
   );
 }

@@ -18,6 +18,8 @@ export default function FourColumnsOrdered() {
           4
         </div>
       </div>
+      <img className="snippet-img" src="img/ex3-html.png" alt="ex1" />
+      <img className="snippet-img" src="img/ex3.png" alt="ex1" />
     </div>
   );
 }

@@ -18,6 +18,8 @@ export default function FourColumns() {
           4
         </div>
       </div>
+      <img className="snippet-img" src="img/ex1-html.png" alt="ex1" />
+      <img className="snippet-img" src="img/ex1.png" alt="ex1" />
     </div>
   );
 }

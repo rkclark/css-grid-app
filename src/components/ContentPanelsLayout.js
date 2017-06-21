@@ -18,6 +18,8 @@ export default function ContentPanelsLayout() {
         <div className="col-two">10</div>
         <div className="col-three ex_6-footer">Footer</div>
       </div>
+      <img className="snippet-img" src="img/ex6-html.png" alt="ex1" />
+      <img className="snippet-img" src="img/ex6.png" alt="ex1" />
     </div>
   );
 }

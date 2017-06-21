@@ -18,6 +18,8 @@ export default function BasicSiteLayout() {
           Footer
         </div>
       </div>
+      <img className="snippet-img" src="img/ex5-html.png" alt="ex1" />
+      <img className="snippet-img" src="img/ex5.png" alt="ex1" />
     </div>
   );
 }

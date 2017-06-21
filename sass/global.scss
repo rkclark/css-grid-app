@@ -31,3 +31,14 @@ body {
     margin: 5px;
   }
 }
+
+.app {
+  margin: auto 3%;
+}
+
+.snippet-img {
+  margin: 30px auto 0;
+  max-width: 600px;
+  box-shadow: 3px 3px $theme_tint2;
+  display: block;
+}
